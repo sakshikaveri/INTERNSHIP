@@ -1,0 +1,9 @@
+Pillow libray and opencv library
+
+
+--> PIL (Python Imaging Library) is a free library for the Python programming language that adds support for opening, manipulating, and saving many different image file formats.
+--> The main class defined in Pillow is the Image class. When you read an image using Pillow, the image is stored in an object of type Image.
+
+An image is a two-dimensional array of pixels, where each pixel corresponds to a color. Each pixel can be represented by one or more values. For example, in an RGB image, each pixel is represented by three values corresponding to the red, green, and blue values for that pixel.
+
+You can find out how many bands are in an Image object using the .getbands() method, and you can convert between modes using .convert(). 
